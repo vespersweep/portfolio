@@ -1,0 +1,33 @@
+* {
+height: auto;
+width: 600px;   
+background-color: #4b3c3c;
+font-family: sans-serif;
+}
+
+h1 {
+font-size: 36px;
+color: red;
+border: double gray;
+text-align: center;
+}
+
+h2 {
+text-align: center;
+}
+
+a, h3 {
+color: greenyellow;
+}
+
+li {
+    text-align: left;
+ color: red;
+ position: relative;
+ left: 80px;
+}
+
+p {
+color: purple;
+text-align: center;
+}canvasc
