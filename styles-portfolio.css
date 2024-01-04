@@ -1,33 +1,63 @@
-* {
-height: auto;
-width: 600px;   
-background-color: #4b3c3c;
-font-family: sans-serif;
-}
 
-h1 {
-font-size: 36px;
-color: red;
-border: double gray;
-text-align: center;
-}
-
-h2 {
-text-align: center;
-}
-
-a, h3 {
-color: greenyellow;
-}
-
-li {
-    text-align: left;
- color: red;
- position: relative;
- left: 80px;
+body {
+    color: darkgoldenrod;
 }
 
 p {
-color: purple;
-text-align: center;
-}canvasc
+    color: darkgoldenrod;
+}
+
+div a {
+    color: blanchedalmond;
+    display: inline;
+    width: auto;
+
+}
+
+.header {
+overflow: hidden;
+
+padding: 20px 10px;
+}
+/* style for header links */
+.header a {
+    float: left;
+    color: burlywood;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+/* style logo links */
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+/*change background color with mouse-hover*/
+.header a:hover {
+    background-color: black;
+    color: white;
+}
+/*style the current/active link*/
+.header a.active {
+    background-color: rgb(58, 80, 26);
+    color: white;
+}
+/*float the link section to the right*/
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    
+    }
+} 
+
+.topLogo {
+    width: 150px;
+    position: relative;
+    bottom: 50px;    
+}
+
